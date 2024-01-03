@@ -1,4 +1,6 @@
-
+--Inserting data into the tables--
+:student1 table:
+  
 insert into student1 values(01,'ryan','carlton_st',98765432,'ryan.ddd@email.com','compsci',3)
 insert into student1 values(02,'shyam','carlton_st',84236572,'shyam.mill@email.com','art',2)
 insert into student1 values(03,'nick','jarvis_st',114356728,'nick32.bbb@email.com','math',3)
@@ -13,7 +15,8 @@ insert into student1 values(11,'patrina','sherbourne_st',93321978,'patrina.ba@em
 insert into student1 values(12,'afreen','king_st',80174725,'afreen.re@email.com','physiology',4)
 
 
-
+:Admin table data insertion:
+  
 insert into admin values(0111,'chintumaji',80174823)
 insert into admin values(0112,'shresthomaji',76584536)
 insert into admin values(0113,'shankarmuk',90807812)
@@ -22,8 +25,7 @@ insert into admin values(0115,'tinapal',12345656)
 insert into admin values(0116,'arundey',79895634)
 
 
-
-
+:log_in table:
 insert into log_in values(01,'hkfjhef@12kl')
 insert into log_in values(02,'safepas_%89www')
 insert into log_in values(03,'$opopo_67were')
@@ -44,7 +46,7 @@ insert into log_in values(0115,'mathew(121dey')
 insert into log_in values(0116,'vinod_77kenny')
 
 
-
+:book table:
 
 insert into book values('daydream','markbay',67836478,20.99,'A')
 insert into book values('Sunlight','johnarch',2345618,39.99,'A')
@@ -62,7 +64,7 @@ insert into book values('Supernatural','kelly',65347623,56.39,'A')
 insert into book values('Moonlight','Roger',97080970,55.49,'A')
 
 
-
+:log table:
 
 insert into log values('2023-12-12','0001-01-01','2024-01-11',0,10,67836478)
 insert into log values('2023-11-10','2024-01-02','2023-12-10',10.00,01,2345618)
